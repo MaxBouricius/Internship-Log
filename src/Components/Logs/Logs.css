@@ -1,0 +1,23 @@
+.notes-container{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.note{
+    background-image: url(../../../public/Images/stickynote.webp);
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.note-content{
+    margin-top: 5rem;
+    max-width: 20rem;
+}
